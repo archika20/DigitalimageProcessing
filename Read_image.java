@@ -28,9 +28,9 @@ public class Sample
                   System.out.println("S.No: "+count+"  Red: "+c.getRed()+"  Green: "+c.getGreen()+"  Blue: "+c.getBlue());
               }
           }
-        } catch (IOException ex) 
+        } catch (IOException e) 
         {
-            System.out.println("Error Occured in the Program is: "+ex);
+            System.out.println("Error Occured in the Program is: "+e);
         }
     }
 }
